@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:ital,wght@1,300&display=swap');
+
+
+:root{
+    --main-bg-color: rgb(27, 75, 233);
+    --font1: 'Ubuntu', sans-serif;
+    --font2: 'Roboto', sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2{
+    max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.my-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    padding: 3px 11px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: var(--font1);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.btn:hover{
+    color: white;
+    background-color:var(--main-bg-color);
+}
+
+.form-input{
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0px 14px;
+    font-family: var(--font1);
+}
+
+.form-box input ,textarea{
+    width: 44vw;
+    padding: 10px 7px;
+    margin: 7px 0;
+    font-size: 15px;
+    font-family: var(--font2);
+    border: 0.2px solid rgb(31, 248, 230);
+    border-radius: 10px;
+}

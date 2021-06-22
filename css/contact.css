@@ -1,0 +1,39 @@
+.contact-content{   
+    padding: 9px;
+    height: 100vh;
+    /* display: block; */
+    margin-top: 32px;
+    margin-bottom: 35px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.contact-content::after{
+    content: "";
+    background-image: url('../img/back.jpg');
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    z-index: -1;
+    /* border-radius: 233px; */
+}
+
+
+.contact-content h2{
+    color: rgb(13, 166, 236);
+    margin-bottom: 33px;
+    text-align: center; 
+}
+
+.contact-form{
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* padding: 0 35vw;
+    padding-top: 5vw; */
+}
